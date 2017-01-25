@@ -1,0 +1,16 @@
+1) Mettre les images de la base de données dans le dossier ../data/training/
+2) Mettre l'image à tester dans le dossier ../data/test/
+3) Saisir la taille des images de la base de donnée et de l'image test (en pixel. Par defaut = 100x100)
+4) Executer la fonction test.py 
+En sortie: le label correspondant est le numéro de la photo de la base de donnée. 
+Exemple: Label = 2. --> Il sagit de la photo numero 3.
+Label = 0. --> Il s'agit de la photo numéro 1. 
+
+
+
+
+
+
+
+http://hanzratech.in/2015/05/30/local-binary-patterns.html
+
