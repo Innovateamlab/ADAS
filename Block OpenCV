@@ -1,0 +1,9 @@
+# Ces fonctions utilise les librairies OpenCV.
+
+# detect_shape_color
+# En entrée prend : L'image à tester, la taille pour un optionnel redimesionnement déterminée dans main.py. 
+# En sortie sort : La figure géométrique détectée, la couleur de la figure (si c'est une forme ronde), l'image du panneau "zoomé" en niveaux de gris
+
+# database_reader
+# En entrée prend : La figure géométrique détectée, la couleur de la figure
+# En sortie sort : La base de données conforme à shape et color (sous forme d'un dictionnaire) avec un label attribué par panneaux
