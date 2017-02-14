@@ -1,0 +1,3 @@
+/home/pi/ME/RaspC++/ShapeColorDetect/build/CMakeFiles/edit_cache.dir
+/home/pi/ME/RaspC++/ShapeColorDetect/build/CMakeFiles/rebuild_cache.dir
+/home/pi/ME/RaspC++/ShapeColorDetect/build/CMakeFiles/ShapeColorDetect.dir

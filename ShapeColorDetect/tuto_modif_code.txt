@@ -1,0 +1,19 @@
+﻿Si le dossier "build" n'existe pas:
+* Avec la ligne de commande Linux, allez dans le dossier contenant le code à tester (cd ../ShapeColorDetect)
+* Dans la ligne de commande Linux du Raspberry, entrez:
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+./nom_fichier_executable
+
+Si le dossier "build" existe:
+* Avec la ligne de commande Linux, allez dans le dossier build (cd ../ShapeColorDetect/build)
+* Dans la ligne de commande Linux du Raspberry, entrez:
+make
+./nom_fichier_executable

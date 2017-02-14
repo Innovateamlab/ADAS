@@ -1,0 +1,30 @@
+Liste des programmes:
+
+* simpletest_raspicam_cv  --> Affiche framerates 
+			+ enregristre image traité en niveau de gris .jpg
+
+* ShapeColorDetect_v1.0 --> + Output Matrice image en niveau de gris
+
+* ShapeColorDetect_v1.1 --> + Conversion Mat to unsigned char
+		+ enregistre Mat en fichier text array.txt
+
+* ShapeColorDetect_v1.2 --> + Code structuré : Fonction main et fonctions  : 
+		+ Affiche l'image "image" capturée 
+		+ Affiche l'image "dst" qui détecte les formes géométriques rouges, les encadre et affiche "CIR", "TRI" ou "RECT"
+		+ Affiche l'image "dst" qui détecte les formes géométriques bleus, les encadre et affiche "CIR", "TRI" ou "RECT"
+
+* ShapeColorDetect_v2.0 --> Code structuré : fonction "main", fonction "shapedetector"; fonction "setlabel", fonction "angle"
+		+ Set les paramètres de framerates et de résolution à la Picaméra
+		+ Traitement sur vidéo live et non plus seuleument sur image
+		+ Affiche la sortie vidéo "dst" de la PiCamera qui détecte les formes géométriques rouges et bleus,les encadre et affiche "CIRCLE", "TRIANGLE" ou "RECTANGLE" 
+
+
+* ShapeColorDetect_v2.1 --> Code structuré: fonction "MatToUChar", fonction "MatToTxtFile", fonction ShapeDetectorBlue", fonction "ShapeDetectorRed"
+		+ Affiche la sortie vidéo "dst_blue" de la PiCamera qui détecte les formes géométriques bleus RECTANGLES ou RONDES,les encadre et affiche "CIRCLE" ou "RECTANGLE"
+		+ Affiche la sortie vidéo "dst_red" de la PiCamera qui détecte les formes géométriques rouges TRIANGLES ou RONDES,les encadre et affiche "CIRCLE" ou "TRIANGLE"
+		+ Détectection plus fluide
+		+ Affiche le real framerates (~3.6fps à l'heure actuelle)
+
+* ShapeColorDetect_v2.2 --> Code structuré : fonction "preprocessing", fonctions "SetRedMask" et "SetBlueMask".
+		+ Récupère l'image cropped "img::croppeddes panneaux détectés en sortie des fonctions "shapeDetectorBlue" et "shapeDetectorRed".
+		+ Affiche "RED CIR", "RED TRI", "BLUE RECT" ou "BLUE CIR"
